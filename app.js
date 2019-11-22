@@ -2,19 +2,19 @@ import Router from './router.js';
 
 const routes = [
   {
-    path: '/#',
+    path: '/',
     getTemplate: (params) => '<h1>Home</h1>'
   },
   {
-    path: '/#about',
+    path: '/about',
     getTemplate: (params) => '<h1>About</h1>',
   },
   {
-    path: '/#contact',
+    path: '/contact',
     getTemplate: (params) => '<h1>Contact</h1>',
   },
   {
-    path: '/#products/:productId',
+    path: '/products/:productId',
     getTemplate: (params) => `<h1>Product ${params.productId}</h1>`,
   },
 ];
