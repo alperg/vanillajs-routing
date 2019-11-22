@@ -13,20 +13,26 @@
 
 <body>
   <header>
-    <nav className="navbar is-dark">
-      <div className="container">
-        <div className="navbar-menu is-active">
-          <div className="navbar-brand">
-            <button className="navbar-item">Awesome App</button>
-          </div>
-
-          <div className="navbar-end">
-            <button class="navbar-item" id="home">Home</button>
-            <button class="navbar-item" id="about">About</button>
-            <button class="navbar-item" id="contact">Contact</button>
-            <button class="navbar-item" id="prod1">Product 1</button>
-            <button class="navbar-item" id="prod2">Product 2</button>
-          </div>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item title" href="/">
+          Awesome App
+        </a>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu has-text-centered">
+        <div class="navbar-end">
+          <a class="navbar-item" id="home" href="#">Home</a>
+          <a class="navbar-item" id="about" href="#">About</a>
+          <a class="navbar-item" id="contact" href="#">Contact</a>
+          <a class="navbar-item" id="prod1" href="#">Product 1</a>
+          <a class="navbar-item" id="prod2" href="#">Product 2</a>
         </div>
       </div>
     </nav>
